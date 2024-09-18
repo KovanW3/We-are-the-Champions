@@ -1,0 +1,11 @@
+{
+    "name":"Champions Endorsements",
+    "short_name":"Champions Endorsements",
+    "icons":[
+        {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],
+        
+    "theme_color":"#2c1e14",
+    "background_color":"#e8d9cf",
+    "display":"standalone"
+    
+}

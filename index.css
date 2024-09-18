@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #2c1e14;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    user-select: none;
+}
+
+img {
+    
+    margin-top: 30px;
+    width: 120px;
+}
+
+#main-section {
+    
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#endorsement-el {
+    
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background: #e8d9cf;
+    border-radius: 7px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fromto-section {
+    
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    color: #2c1e14;
+    background: #e8d9cf;
+}
+
+button {
+    
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #e8d9cf;
+    font-weight: bold;
+    background: #533827;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#list-el {
+    
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+}
+
+li {
+    font-family: "Josefin Sans", sans-serif;
+    background: #e8d9cf;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #2c1e14;
+}
+
+.third-line-container {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.like-button-container {
+    
+    display: flex;
+    gap: 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.to-class, .from-class, .heart-symbol, .likes-text {
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.heart-symbol:hover, button:hover {
+    
+    cursor: pointer;
+}
